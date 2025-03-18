@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "database": "mydb",
+            "username": "root",
+            "password": "0723",
+            "connectionTimeout": 30
+        }
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "Tasala"
+}
