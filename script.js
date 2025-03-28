@@ -17,3 +17,21 @@ navLinks.forEach(link => {
     link.addEventListener("click", () => 
         menuOpenButton.click());
     });
+
+
+    function showSection(sectionId) {
+        // Hide all sections
+        document.querySelectorAll('.section').forEach(section => {
+            section.classList.remove('active');
+        });
+
+        // Show the clicked section
+        document.getElementById(sectionId).classList.add = ('active');
+    }
+
+    // Show only the home section by default
+    document.addEventListener("DOMContentLoaded", function ()  {
+        showSection('home');
+    });
+
+    
