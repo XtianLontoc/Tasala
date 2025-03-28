@@ -1,37 +1,43 @@
 const navLinks = document.querySelectorAll(".nav-menu .nav-link");
 const menuOpenButton = document.querySelector("#menu-open-button");
-const menCloseButton = document.querySelector("#menu-close-button");
+const menuCloseButton = document.querySelector("#menu-close-button");
 
-//toggles mobile menu visibility
+// Toggles mobile menu visibility
 menuOpenButton.addEventListener("click", () => {
     document.body.classList.toggle("show-mobile-menu");
 });
 
-//closes menu when close button is clicked
-menCloseButton.addEventListener("click", () => { menuOpenButton.click();  
-
+// Closes menu when close button is clicked
+menuCloseButton.addEventListener("click", () => {
+    menuOpenButton.click();
 });
 
-//closes menu when nav link is clicked
+// Closes menu when nav link is clicked
 navLinks.forEach(link => {
-    link.addEventListener("click", () => 
-        menuOpenButton.click());
+    link.addEventListener("click", () => {
+        menuOpenButton.click();
+    });
+});
+
+function showSection(sectionId) {
+    // Hide all sections
+    document.querySelectorAll('.section').forEach(section => {
+        section.classList.remove('active');
     });
 
+    // Show the clicked section
+    document.getElementById(sectionId).classList.add('active');
+}
 
-    function showSection(sectionId) {
-        // Hide all sections
-        document.querySelectorAll('.section').forEach(section => {
-            section.classList.remove('active');
-        });
+// Show only the home section by default
+document.addEventListener("DOMContentLoaded", function () {
+    showSection('home');
+});
 
-        // Show the clicked section
-        document.getElementById(sectionId).classList.add = ('active');
+window.addEventListener('resize', () => {
+    const video = document.querySelector('.background-video');
+    if (window.innerWidth <= 768) {
+        video.style.height = '100%';
+        video.style.width = '100%';
     }
-
-    // Show only the home section by default
-    document.addEventListener("DOMContentLoaded", function ()  {
-        showSection('home');
-    });
-
-    
+});
