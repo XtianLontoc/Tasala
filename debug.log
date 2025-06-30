@@ -1,0 +1,59 @@
+Array
+(
+    [username] => awwwwaw
+    [first_name] => awawww
+    [last_name] => awawaw
+    [email] => awww@gmail.com
+    [role_id] => 1
+    [password] => awawaw2
+)
+Array
+(
+    [username] => awwwwaw
+    [first_name] => awawww
+    [last_name] => awawaw
+    [email] => awww@gmail.com
+    [role_id] => 1
+    [password] => awawaw2
+)
+User added successfully
+Array
+(
+    [username] => awaw
+    [first_name] => awaw
+    [last_name] => awaw
+    [email] => awaw@gmail.com
+    [role_id] => 2
+    [password] => awaw2
+)
+User added successfully
+Array
+(
+    [username] => awaw
+    [first_name] => awaw
+    [last_name] => awaw
+    [email] => awaw2@gmail.com
+    [role_id] => 2
+    [password] => awaw2
+)
+User added successfully
+Array
+(
+    [username] => awaw
+    [first_name] => awaw
+    [last_name] => awaw
+    [email] => awaw@gmail.com
+    [role_id] => 2
+    [password] => awaw2
+)
+User added successfully
+Array
+(
+    [username] => james
+    [first_name] => james
+    [last_name] => espana
+    [email] => jhespana@gmail.com
+    [role_id] => 2
+    [password] => jameses
+)
+User added successfully

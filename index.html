@@ -1,0 +1,177 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tasala</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.core.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
+    </head>
+
+    <body>
+            <header>
+                <nav class="navbar section-content">
+                    <a href="#" class="nav-logo">
+                        <img src="./images/Logo.png" alt="Tasala Logo" class="logo-img">
+                        <h2 class="logo-text">Tasala</h2>
+                    </a>
+                    <ul class="nav-menu">
+                        <button id="menu-close-button" class="fas fa-times"></button>
+                        
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.php" class="nav-link login-button">Log In</a>
+                        </li>
+                    </ul>
+                    <button id="menu-open-button" class="fas fa-bars"></button>
+                </nav>
+            </header>
+      
+        <main>
+            <section class="hero-section" id="home">
+                <div class="section-content">
+                    <div class="hero-details">
+                     <p class="description">An entertainment haven. Chill with your friends and make memories that'll last.</p>
+                <div class="buttons">
+                    <a href="#gallery" class="button-book-now"> Gallery</a>
+                    <a href="#contact" class="button-contact-us">Contact Us</a>
+                </div>
+                    </div>
+               <div class="background-wrapper">
+                <video autoplay muted loop playsinline class="background-video">
+                <source src="images/adv.mp4" type="video/mp4">
+                <source src="images/adv.webm" type="video/webm">
+
+                Your browser does not support the video tag.
+            </video>
+
+                <img src="./images/home-bg.jpg" alt="background"
+                class="background-img">
+                 </div> 
+            </div>
+            </section>
+
+            <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="./images/about-image.png" alt="about" class="about-img">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p  class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                        convallis libero in dui sollicitudin, nec ultricies
+                        nunc tincidunt. Nullam nec purus nec nunccursus
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/profile.php?id=61555572577264" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tasala.tgb/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">  
+            <h2 class="section-title">Gallery</h2>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide"><img src="images/gallery-image-1.jpg" alt="Gallery image 1"></li>
+                <li class="glide__slide"><img src="images/gallery-image-2.jpg" alt="Gallery image 2"></li>
+                <li class="glide__slide"><img src="images/gallery-image-3.jpg" alt="Gallery image 3"></li>
+                <li class="glide__slide"><img src="images/gallery-image-4.jpg" alt="Gallery image 4"></li>
+                <li class="glide__slide"><img src="images/gallery-image-5.png" alt="Gallery image 5"></li>
+                <li class="glide__slide"><img src="images/gallery-image-6.png" alt="Gallery image 6"></li>
+                <li class="glide__slide"><img src="images/gallery-image-7.png" alt="Gallery image 7"></li>  
+                <li class="glide__slide"><img src="images/gallery-image-8.png" alt="Gallery image 8"></li>
+                <li class="glide__slide"><img src="images/gallery-image-9.png" alt="Gallery image 9"></li>
+                <li class="glide__slide"><img src="images/gallery-image-10.png" alt="Gallery image 10"></li>
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">←</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">→</button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <!-- Bullets will be auto-generated by JS -->
+            </div>
+        </div>
+        </section>
+
+            <section class="contact-section" id="contact">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p class="text">1st floor of JL Building across UB Founder's Gate, Ma. Clara St., Tagbilaran City, Philippines </p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p> tasala.tgb@gmail.com></p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(+63) 946 3610 644</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Monday - Friday: 10:00 AM - 6:30 PM</p>               
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Saturday - Sunday: Available for Reservations</p>               
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>N/A</p>
+                        </li>
+                    </ul>
+
+                    <form action="submit_contact.php" method="POST" class="contact-form">
+                        <input type="text" name="NAME" class="form-input" placeholder="Your name" required>
+                        <input type="email" name="email" class="form-input" placeholder="Your email" required>
+                        <textarea name="message" class="form-input" placeholder="Message" 
+                        required></textarea>
+                        <button class="submit-button">Send</button>
+                    </form>
+                </div>
+            </section>
+
+        
+        <footer class="footer-section">
+            <div class="section-content"> 
+                <p class="copyright-text">© 2025 Tasala</p>
+
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/profile.php?id=61555572577264" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/tasala.tgb/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Terms of Service</a>
+                </p>
+            </div>
+        </footer>
+        </div>
+
+        </main> 
+    <script src="script.js"></script>    
+    </body>
+</html>
