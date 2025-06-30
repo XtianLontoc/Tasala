@@ -97,7 +97,7 @@ document.getElementById('imageFile').addEventListener('change', function(e) {
     if (!validTypes.includes(file.type)) {
         alert('Only JPG, PNG or GIF images are allowed');
         this.value = '';
-    }
+    }   
     
     if (file.size > 2 * 1024 * 1024) { // 2MB limit
         alert('Image must be less than 2MB');
